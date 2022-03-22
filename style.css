@@ -79,10 +79,6 @@ h2:hover {
     transition: 0.5s;
 }
 
-.container .card .face.face1 .content h3 {
-    color: rgb(158, 158, 158);
-}
-
 .container .card:hover .face.face1 .content {
     opacity: .6;
 }
@@ -93,7 +89,7 @@ h2:hover {
 
 .container .card .face.face2 {
     position: relative;
-    background: #fff;
+    background: #195f59;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -103,13 +99,19 @@ h2:hover {
     transform: translateY(-100px);
 }
 
+.container .card:hover .face.face2 {
+    background: #fff;
+}
+
 .container .card .face.face2 h3 {
     padding-top: 150px;
+    color: #fff;
     transition: 0.5s;
 }
 
 .container .card:hover .face.face2 h3 {
     padding-top: 10px;
+    color: black;
     transition: 0.5s;
 }
 
